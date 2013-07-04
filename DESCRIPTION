@@ -1,0 +1,8 @@
+ What I did:
+Created a master ramdisk RAMDISK, and five slave ramdisk RAMDISK0, RAMDISK1, RAMDISK2, RAMDISK3, RAMDISK4 of variouos block sizes, and desinged init, open, write, read, close methods for master ramdisk, as well as init, write, read, close method for the slave ramdisk.
+
+ Method used:
+Master-slave.
+
+ Test:
+Open a ramdisk. While the first one is open, open the second ramdisk. Write data to these two ramdisks and read the data back to verify. Finally close the two ramdisks.
